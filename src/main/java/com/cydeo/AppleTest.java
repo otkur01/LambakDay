@@ -23,6 +23,9 @@ public class AppleTest {
         ApplePredicate weightPredicate = (Apple apple) ->apple.getWeight()>200;
 
         System.out.println( filterApples(inventory,weightPredicate));
+          PrintApple(inventory,new printAppleColor());
+          PrintApple(inventory,new printAppleWeight());
+
 
     }
 
@@ -34,5 +37,12 @@ public class AppleTest {
             }
         }
         return result;
+    }
+
+    public static void PrintApple(List<Apple> inventory, prettyPrintApple pt){
+        for(Apple apple : inventory){
+            String output = pt.printApple(apple);
+            System.out.println(output);
+        }
     }
 }
