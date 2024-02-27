@@ -1,4 +1,4 @@
-package com.hekim;
+package com.Comparator_interface;
 
 import java.util.Comparator;
 

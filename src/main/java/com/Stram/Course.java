@@ -1,4 +1,4 @@
-package com.hekim;
+package com.Stram;
 
 public class Course {
     private String coursName;

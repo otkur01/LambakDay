@@ -1,4 +1,4 @@
-package com.hekim;
+package com.double_colon_operators;
 
 import java.util.function.BiFunction;
 import java.util.function.Consumer;

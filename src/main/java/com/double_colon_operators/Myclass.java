@@ -1,4 +1,4 @@
-package com.hekim;
+package com.double_colon_operators;
 
 public class Myclass {
     public double method(int x){
